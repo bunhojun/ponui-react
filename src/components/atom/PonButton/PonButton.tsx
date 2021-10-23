@@ -1,4 +1,5 @@
 import React, { HTMLAttributes, ReactNode } from "react";
+import styles from "src/components/atom/PonButton/PonButton.module.css";
 
 type Props = {
   children: ReactNode;
@@ -6,7 +7,7 @@ type Props = {
 } & HTMLAttributes<HTMLButtonElement>
 
 export const PonButton = ({ children, ...props }: Props) => (
-  <button {...props}>
+  <button {...props} className={styles.button}>
     {children}
   </button>
 );
