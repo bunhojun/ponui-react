@@ -6,6 +6,7 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-postcss",
     "storybook-css-modules-preset",
+    "@storybook/addon-a11y",
   ],
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
   typescript: {
@@ -16,6 +17,9 @@ module.exports = {
       path.resolve(__dirname, ".."),
       "node_modules",
     ]
+    config.module.rules[0].exclude = [
+      /node_modules/,
+    ];
 
     return config;
   }
