@@ -3,13 +3,12 @@ import { PonButton } from "src/components/atom/PonButton/PonButton";
 
 export default {
   title: "atoms/PonButton",
-}
-
-export const Default = () => {
-  const onClick = () => null;
-  return (
-    <PonButton onClick={onClick}>
-      default
-    </PonButton>
-  )
 };
+
+const props = {
+  onClick: () => null,
+};
+
+export const Default = () => (
+  <PonButton onClick={props.onClick}>default</PonButton>
+);
