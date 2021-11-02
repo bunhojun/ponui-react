@@ -1,4 +1,13 @@
 :root {
+  /* color */
+  --purple: #8B30F2;
+  --red: #FC285D;
+  --orange: #F57044;
+  --green: #2DED73;
+  --lightBlue: #5AE1FA;
+  --white: #fff;
+  --black: #000;
+  --gray: #808080D0;
   /* margin */
   --small: 8px;
   /* border-radius */

@@ -1,0 +1,19 @@
+@import "../../../assets/css/variables.css";
+
+.button {
+  padding: var(--small);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: none;
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.button:focus {
+  opacity: 0.5;
+}
+
+.disabled {
+  background-color: var(--gray);
+  cursor: auto;
+}

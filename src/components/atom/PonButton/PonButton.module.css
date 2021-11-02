@@ -1,7 +1,0 @@
-@import "../../../assets/css/variables.css";
-
-.button {
-  padding: var(--small);
-  border-radius: var(--border-radius);
-  cursor: pointer;
-}

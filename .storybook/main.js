@@ -7,6 +7,7 @@ module.exports = {
     "@storybook/addon-postcss",
     "storybook-css-modules-preset",
     "@storybook/addon-a11y",
+    "storybook-addon-pseudo-states",
   ],
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
   typescript: {
