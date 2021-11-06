@@ -1,0 +1,5 @@
+@import "../../../assets/css/variables.css";
+
+.ponCheckButton {
+  margin-right: var(--small);
+}
