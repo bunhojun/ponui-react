@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "src/components/atoms/PonButton/PonButton.module.css";
+import styles from "./PonButton.module.css";
 
 type Props = {
   children: React.ReactNode;

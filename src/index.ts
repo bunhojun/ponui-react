@@ -1,3 +1,4 @@
-import "src/assets/css/index.css";
+import "./assets/css/index.css";
 
-export * from "src/components/atoms/PonButton/PonButton";
+export * from "./components/atoms/PonButton/PonButton";
+export * from "./components/atoms/PonCheckButton/PonCheckButton";

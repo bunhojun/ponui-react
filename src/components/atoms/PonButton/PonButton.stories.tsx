@@ -1,5 +1,5 @@
 import React from "react";
-import { PonButton } from "src/components/atoms/PonButton/PonButton";
+import { PonButton } from "./PonButton";
 
 export default {
   title: "atoms/PonButton",
