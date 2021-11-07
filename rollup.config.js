@@ -18,11 +18,8 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      typescript({
-        tsconfig: "./tsconfig.json",
-      }),
+      typescript(),
       postcss({
-        extensions: [".css"],
         plugins: [autoprefixer(), postcssImport(), cssVariables()],
       }),
     ],
@@ -35,7 +32,6 @@ export default [
     },
     plugins: [
       postcss({
-        extensions: [".css"],
         extract: true,
         plugins: [autoprefixer(), postcssImport(), cssVariables()],
       }),
