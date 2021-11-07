@@ -1,5 +1,6 @@
 {
   "name": "ponui-react",
+  "description": "pon's design system for react apps.",
   "version": "1.0.0",
   "main": "lib/index.js",
   "repository": "https://github.com/bunhojun/ponui-react.git",
